@@ -1,0 +1,9 @@
+//include<stdio.h>
+main()
+{
+ float A,B,C,Res;
+ printf("ENTER THE VALUE");
+ scanf("%f%f%f",&A,&B,&C);
+ Res=A+B/C;
+ printf("THE RESULT OF %f %f AND %f = %f",A,B,C,Res);
+}
