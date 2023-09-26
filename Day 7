@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+
+    // Input the first number
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    // Input the second number
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    // Calculate and print the squares
+    int square1 = num1 * num1;
+    int square2 = num2 * num2;
+
+    printf("Square of %d is %d\n", num1, square1);
+    printf("Square of %d is %d\n", num2, square2);
+
+    return 0;
+}
